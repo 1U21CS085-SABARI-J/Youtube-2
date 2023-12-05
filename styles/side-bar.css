@@ -1,0 +1,211 @@
+.side-bar{
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: rgb(224, 254, 255);
+    background-color: rgb(224, 254, 255);
+    left: 0;
+    top: 56px;
+    position: fixed;
+    bottom: 0;
+    width: 72px;
+    flex-shrink: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    box-shadow: inset 1px 3px 3px
+    rgba(0, 0, 0, 0.15);
+    z-index: 200;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.sidebar-link1,.sidebar-link2,.sidebar-link3,.sidebar-link4,.sidebar-link5,.sidebar-link6{
+    position: relative;
+    height: 74px;
+    display: flex;
+    font-family: calibri,roboto;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.sidebar-link1:hover{
+    background-color: rgb(223, 223, 223);
+}
+.sidebar-link2:hover{
+    background-color: rgb(223, 223, 223);
+}
+.sidebar-link3:hover{
+    background-color: rgb(223, 223, 223);
+}
+.sidebar-link4:hover{
+    background-color: rgb(223, 223, 223);
+}
+.sidebar-link5:hover{
+    background-color: rgb(223, 223, 223);
+}
+.sidebar-link6:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+
+.sidebar-link1 img{
+    height: 26px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link2 img{
+    height: 26px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link3 img{
+    height: 26px;
+    margin-bottom: 4px;
+}
+.sidebar-link4 img{
+    height: 26px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link5 img{
+    height: 26px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link6 img{
+    height: 26px;
+    margin-bottom: 4px;
+}
+.sidebar-link div{
+    font-family: roboto,calibre;
+    font-size: 10px;
+}
+
+.sidebar-link1 .home{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -24px;
+    right: 12px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.sidebar-link1:hover .home{
+    opacity: 1;
+    transition: 0.6s;    
+}
+
+.sidebar-link2 .explore{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -24px;
+    right: 8px;
+    opacity: 0;
+    transition: 0.2s;
+}
+.sidebar-link2:hover .explore{
+    opacity: 1;
+    transition: 0.6s;    
+}
+
+.sidebar-link3 .subscriptions{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 10px;
+    bottom: -24px;
+    right: 1px;
+    opacity: 0;
+    transition: 0.2s;
+}
+.sidebar-link3:hover .subscriptions{
+    opacity: 1;
+    transition: 0.6s;    
+}
+
+.sidebar-link4 .originals{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -24px;
+    right: 3px;
+    opacity: 0;
+    transition: 0.2s;
+}
+.sidebar-link4:hover .originals{
+    opacity: 1;
+    transition: 0.6s;    
+}
+
+.sidebar-link5 .music{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    font-size: 10px;
+    bottom: -24px;
+    right: 2px;
+    opacity: 0;
+    transition: 0.2s;
+}
+.sidebar-link5:hover .music{
+    opacity: 1;
+    transition: 0.6s;    
+}
+
+.musik{
+    text-align: center;
+}
+.sidebar-link6 .library{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -24px;
+    right: 4px;
+    opacity: 0;
+    transition: 0.2s;
+}
+.sidebar-link6:hover .library{
+    opacity: 1;
+    transition: 0.6s;    
+}
+
+

@@ -1,0 +1,28 @@
+p{
+    font-family: Roboto;
+       
+   }
+   .thumbnail{
+       display: inline-block;
+       height: 300px;
+
+   }
+
+   .search{
+       font-size: 200px;
+       margin-left: 12px;
+       
+   }
+   .video-title{
+       width: 300px;
+       margin: 0%;
+   }
+
+   .dp{
+       display: inline-block;
+       width: 300px;
+   }
+
+   .video-stats{
+       display: inline-block;
+   }
