@@ -57,7 +57,7 @@
 }
 
 .search::placeholder{
-    font-family: roboto,ariel;
+    font-family: roboto;
     font-size: 16px;
 }
 .search-button{
@@ -108,22 +108,6 @@
     transition: 0.6s;
 }
 
-.search-button .tooltip{
-    position: absolute;
-    background-color: gray;
-    color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-radius: 2px;
-    font-size: 12px;
-    bottom: -31px;
-    right: 1px;
-    opacity: 0;
-    transition: 0.2s;
-}
-
 .search-button:hover .tooltip{
     opacity: 1;
     transition: 0.6s;
@@ -131,6 +115,9 @@
 
 .voice-search-button{
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     border-radius: 20px;
     border: none;
@@ -151,7 +138,14 @@
     margin-top: 4px;
     
 }
-.voice-search-button .tooltip{
+
+.voice-search-button-container{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.voice-search-button-container .tooltip{
     position: absolute;
     background-color: gray;
     color: white;
@@ -161,15 +155,15 @@
     padding-right: 8px;
     border-radius: 2px;
     font-size: 12px;
-    bottom: -23px;
-    right: 480px;
+    bottom: -30px;
+    right: -4px;
     opacity: 0;
     transition: 0.2s;
 }
 
 
 
-.voice-search-button:hover .tooltip{
+.voice-search-button-container:hover .tooltip{
     opacity: 1;
     transition: 0.6s;
 }
@@ -189,7 +183,7 @@
     border-radius: 2px;
     font-size: 12px;
     bottom: -30px;
- /   right: 1px;
+    right: 1px;
     opacity: 0;
     transition: 0.2s;
 }
