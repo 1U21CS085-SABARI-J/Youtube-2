@@ -3,8 +3,9 @@
     <head>
         <title>Youtube.com Clone</title>
         
-        <link rel="stylesheet" href="Youtube/fonts/calibri.ttf"
-        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/header.css">
@@ -25,15 +26,16 @@
             >FrankTube</div>
         </div>
             <div class="middle-section">
-            <input class="search" type="text" placeholder="Search YouTube">
+            <input class="search" type="text" placeholder="Search FrankTube">
             <button class="search-button">
             <img class="search-icon" src="thumbnails/search.svg">
             <div class="tooltip">Search</div>
     </button>
+    <div class="voice-search-button-container">
             <button class="voice-search-button">
             <img class="voice-search-icon" src="thumbnails/voice-search-icon.svg">
-            <div class="tooltip">Voice-Search</div>
-        </button>
+            <div class="tooltip">Voice</div>
+        </button></div>
         </div>
             <div class="right-section">
                <div class="cast">
@@ -94,11 +96,7 @@
 
     
 </div>
-        <div class="video-feed" style="
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 16px;
-        row-gap: 40px;">
+        <div class="video-feed">
         <div class="video-preview">
            
         <div class="thumbnail">
