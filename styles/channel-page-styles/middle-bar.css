@@ -1,0 +1,104 @@
+.middle{
+    display: grid;
+       grid-template-rows: 1fr 1fr 1fr;
+       background-color: white;
+       align-items: center;
+       justify-items: center;
+       padding-top: 59px;
+       row-gap: 5px;
+       left: 0;
+       right: 0;
+            
+    }
+    
+.middle-1{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    width: 642px;
+    height: 103.49px;
+    
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px ;
+}
+
+.middle-2{
+    height: 160px;
+    width: 590px;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+}
+
+.middle-2 .account-name{
+    width: fit-content;
+    font-size: 43.2px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-weight: 900;
+}
+
+.infos{
+    margin-left: 20px;
+}
+.middle-2 .sub-info{
+    display: block;
+    width: 1fr;
+    height: 20px;
+}
+.profile-pic-container{
+    width: 160px;
+    display: inline-block;
+    height: 160px;
+    }
+
+.profile-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+}
+
+.sub-info,.about{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: rgb(179, 179, 179);
+}
+
+.links{
+    font-size: 16px;
+    color: slateblue;
+}
+
+.sub-butt{
+    height: 36px;
+    width: 500px;
+    font-family: roboto;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color:azure;
+    transition: 0.6s;
+}
+
+.sub-butt:hover{
+    background-color: black;
+    border-color: azure;
+    color: azure;
+    width: 550px;
+    height: 60px;
+    transition: 0.6s;
+    border-radius: 35px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.sub-butt:active{
+    background-color: azure;
+    color: black;
+    width: 490px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 0.6s;
+}
